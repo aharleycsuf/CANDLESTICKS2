@@ -1,0 +1,435 @@
+body {
+  background-color: #FFFFF;
+  font-family: Signika Negative, sans-serif;
+  color: #989898;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.wrapper {
+  position: absolute;
+  margin: 0 auto;
+  width: 540px;
+  height: 450px;
+  padding: 20px;
+  margin-top: 16px;
+  background: #FFFFF;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.wrapper .candle {
+  width: 11px;
+  height: 50px;
+  position: relative;
+  top: 20px;
+  margin-top: 4px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  color: #333;
+  background-color: #FB5754;
+}
+.wrapper .candle::after {
+  content: "";
+  height: 70px;
+  width: 1px;
+  display: block;
+  position: relative;
+  left: 5px;
+  top: -10px;
+  background-color: #FB5754;
+}
+.wrapper .c1 {
+  left: 1px;
+}
+.wrapper .c2 {
+  left: 2px;
+}
+.wrapper .c3 {
+  left: 3px;
+}
+.wrapper .c4 {
+  left: 4px;
+}
+.wrapper .c5 {
+  left: 5px;
+}
+.wrapper .c6 {
+  left: 6px;
+}
+.wrapper .c7 {
+  left: 7px;
+}
+.wrapper .c8 {
+  left: 8px;
+}
+.wrapper .c9 {
+  left: 9px;
+}
+.wrapper .c10 {
+  left: 10px;
+}
+.wrapper .c11 {
+  left: 11px;
+}
+.wrapper .c12 {
+  left: 12px;
+}
+.wrapper .c13 {
+  left: 13px;
+}
+.wrapper .c14 {
+  left: 14px;
+}
+.wrapper .c15 {
+  left: 15px;
+}
+.wrapper .c16 {
+  left: 16px;
+}
+.wrapper .c17 {
+  left: 17px;
+}
+.wrapper .c18 {
+  left: 18px;
+}
+.wrapper .c19 {
+  left: 19px;
+}
+.wrapper .c20 {
+  left: 20px;
+}
+.wrapper .c21 {
+  left: 21px;
+}
+.wrapper .c22 {
+  left: 22px;
+}
+.wrapper .c23 {
+  left: 23px;
+}
+.wrapper .c24 {
+  left: 24px;
+}
+.wrapper .c25 {
+  left: 25px;
+}
+.wrapper .c26 {
+  left: 26px;
+}
+.wrapper .c27 {
+  left: 27px;
+}
+.wrapper .c28 {
+  left: 28px;
+}
+.wrapper .c29 {
+  left: 29px;
+}
+.wrapper .c30 {
+  left: 30px;
+}
+.wrapper .c31 {
+  left: 31px;
+}
+.wrapper .c32 {
+  left: 32px;
+}
+.wrapper .c1 {
+  top: 250px;
+  height: 100px;
+  background-color: #29BB9B;
+}
+.wrapper .c1::after {
+  display: none;
+}
+.wrapper .c2 {
+  height: 10px;
+  top: 160px;
+}
+.wrapper .c2::after {
+  height: 30px;
+  background-color: #FB5754;
+}
+.wrapper .c3 {
+  height: 30px;
+  top: 160px;
+  background-color: #29BB9B;
+}
+.wrapper .c3::after {
+  top: 10px;
+  height: 30px;
+  background-color: #29BB9B;
+}
+.wrapper .c4 {
+  height: 50px;
+  top: 130px;
+  background-color: #29BB9B;
+}
+.wrapper .c4::after {
+  top: 10px;
+  height: 50px;
+  background-color: #29BB9B;
+}
+.wrapper .c5 {
+  height: 50px;
+  top: 130px;
+}
+.wrapper .c5::after {
+  top: 10px;
+  height: 60px;
+}
+.wrapper .c6 {
+  height: 60px;
+  top: 190px;
+}
+.wrapper .c6::after {
+  top: 20px;
+  height: 50px;
+}
+.wrapper .c7 {
+  height: 40px;
+  top: 190px;
+  background-color: #29BB9B;
+}
+.wrapper .c7::after {
+  top: -20px;
+  height: 90px;
+  background-color: #29BB9B;
+}
+.wrapper .c8 {
+  height: 50px;
+  top: 150px;
+  background-color: #29BB9B;
+}
+.wrapper .c8::after {
+  top: -20px;
+  height: 80px;
+  background-color: #29BB9B;
+}
+.wrapper .c9 {
+  height: 40px;
+  top: 140px;
+}
+.wrapper .c9::after {
+  top: -10px;
+  height: 80px;
+}
+.wrapper .c10 {
+  height: 80px;
+  top: 140px;
+  background-color: #29BB9B;
+}
+.wrapper .c10::after {
+  top: -20px;
+  height: 160px;
+  background-color: #29BB9B;
+}
+.wrapper .c11 {
+  height: 30px;
+  top: 90px;
+}
+.wrapper .c11::after {
+  top: 10px;
+  height: 30px;
+}
+.wrapper .c12 {
+  height: 20px;
+  top: 110px;
+}
+.wrapper .c12::after {
+  top: -10px;
+  height: 50px;
+}
+.wrapper .c13 {
+  height: 20px;
+  top: 130px;
+  background-color: #29BB9B;
+}
+.wrapper .c13::after {
+  top: -10px;
+  height: 40px;
+  background-color: #29BB9B;
+}
+.wrapper .c14 {
+  height: 20px;
+  top: 130px;
+}
+.wrapper .c14::after {
+  top: -10px;
+  height: 40px;
+}
+.wrapper .c15 {
+  height: 10px;
+  top: 130px;
+  background-color: #29BB9B;
+}
+.wrapper .c15::after {
+  top: -10px;
+  height: 30px;
+  background-color: #29BB9B;
+}
+.wrapper .c16 {
+  height: 50px;
+  top: 120px;
+  background-color: #29BB9B;
+}
+.wrapper .c16::after {
+  top: 0px;
+  height: 80px;
+  background-color: #29BB9B;
+}
+.wrapper .c17 {
+  height: 40px;
+  top: 70px;
+  background-color: #29BB9B;
+}
+.wrapper .c17::after {
+  top: -20px;
+  height: 80px;
+  background-color: #29BB9B;
+}
+.wrapper .c18 {
+  height: 10px;
+  top: 30px;
+  background-color: #29BB9B;
+}
+.wrapper .c18::after {
+  top: -30px;
+  height: 60px;
+  background-color: #29BB9B;
+}
+.wrapper .c19 {
+  height: 10px;
+  top: 20px;
+  background-color: #29BB9B;
+}
+.wrapper .c19::after {
+  top: -10px;
+  height: 30px;
+  background-color: #29BB9B;
+}
+.wrapper .c20 {
+  height: 30px;
+  top: 10px;
+  background-color: #29BB9B;
+}
+.wrapper .c20::after {
+  top: -30px;
+  height: 80px;
+  background-color: #29BB9B;
+}
+.wrapper .c21 {
+  height: 100px;
+  top: 80px;
+}
+.wrapper .c21::after {
+  top: -20px;
+  height: 130px;
+}
+.wrapper .c22 {
+  height: 80px;
+  top: 160px;
+}
+.wrapper .c22::after {
+  top: -20px;
+  height: 130px;
+}
+.wrapper .c23 {
+  height: 20px;
+  top: 180px;
+}
+.wrapper .c23::after {
+  top: -50px;
+  height: 130px;
+}
+.wrapper .c24 {
+  height: 30px;
+  top: 180px;
+  background-color: #29BB9B;
+}
+.wrapper .c24::after {
+  top: -10px;
+  height: 40px;
+  background-color: #29BB9B;
+}
+.wrapper .c25 {
+  height: 50px;
+  top: 150px;
+  background-color: #29BB9B;
+}
+.wrapper .c25::after {
+  top: -30px;
+  height: 100px;
+  background-color: #29BB9B;
+}
+.wrapper .c26 {
+  height: 10px;
+  top: 100px;
+  background-color: #29BB9B;
+}
+.wrapper .c26::after {
+  top: -10px;
+  height: 30px;
+  background-color: #29BB9B;
+}
+.wrapper .c27 {
+  height: 20px;
+  top: 90px;
+  background-color: #29BB9B;
+}
+.wrapper .c27::after {
+  top: -40px;
+  height: 80px;
+  background-color: #29BB9B;
+}
+.wrapper .c28 {
+  height: 10px;
+  top: 70px;
+  background-color: #29BB9B;
+}
+.wrapper .c28::after {
+  top: 0px;
+  height: 20px;
+  background-color: #29BB9B;
+}
+.wrapper .c29 {
+  height: 40px;
+  top: 60px;
+  background-color: #29BB9B;
+}
+.wrapper .c29::after {
+  top: -10px;
+  height: 50px;
+  background-color: #29BB9B;
+}
+.wrapper .c30 {
+  height: 20px;
+  top: 20px;
+  background-color: #29BB9B;
+}
+.wrapper .c30::after {
+  top: -10px;
+  height: 40px;
+  background-color: #29BB9B;
+}
+.wrapper .c31 {
+  height: 20px;
+  top: 0px;
+  background-color: #29BB9B;
+}
+.wrapper .c31::after {
+  top: 0px;
+  height: 40px;
+  background-color: #29BB9B;
+}
+.wrapper .c32 {
+  height: 50px;
+  top: 30px;
+}
+.wrapper .c32::after {
+  top: -10px;
+  height: 90px;
+}
